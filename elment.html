@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="demo" >Hello!</p>
+    <button onclick="changeText()">Click Me</button>
+    <script>
+        function changeText() {
+            if(document.getElementById("demo").textContent==="Hello!"){
+            document.getElementById("demo").textContent = "You clicked the button!";
+            }else{
+                document.getElementById("demo").textContent = "You have already clicked the button"
+            }
+            
+        }
+    </script>
+</body>
+
+</html>
